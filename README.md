@@ -1,59 +1,59 @@
 # YHAMG
-## Ò» Èí¼þ¸ÅÊö
-### 1.1 Èí¼þ¹¦ÄÜ
-YHAMGÊÇÓÉ¹ú·À¿Æ¼¼´óÑ§ÑÐ·¢µÄ²¢ÐÐ´úÊý¶àÖØÍø¸ñËã·¨¿â£¬Ö÷ÒªÓÃÓÚÇó½âÐÎÈçAx = bµÄÏ¡ÊèÏßÐÔÏµÍ³£¬ÆäÖÐAÊÇÒ»¸ö·Ö²¼Ê½´óÐÍÏ¡Êè¾ØÕó£¬x, bÊÇÊµÏòÁ¿¡£YHAMGµÄÄ¿µÄÊÇÔÚ´ó¹æÄ£²¢ÐÐ¼ÆËã»úÉÏÎªÓÃ»§Ìá¹©¸ßÐÔÄÜ¿ÉÀ©Õ¹µÄ²¢ÐÐÏßÐÔÇó½âÆ÷¡£Çó½â·½°¸ÊÇÔ¤Ìõ¼þ×ÓºÍ×Ó¿Õ¼äµü´ú·¨£¬°üº¬ÁËÒÔÏÂËã·¨£º
-- Ï¡ÊèÏßÐÔ´úÊý»ù±¾ÔËËã£»
-- ×Ó¿Õ¼äµü´ú·¨£¬°üÀ¨CG¡¢GMRESºÍBiCGStab£»
-- ¾­µä´úÊý¶àÖØÍø¸ñËã·¨£¨AMG£©£»
-- Jacobi¡¢SOR¡¢SSOR»ù±¾µü´ú·¨£»
-- ²»ÍêÈ«LU·Ö½â¡£
+## ä¸€ è½¯ä»¶æ¦‚è¿°
+### 1.1 è½¯ä»¶åŠŸèƒ½
+YHAMGæ˜¯ç”±å›½é˜²ç§‘æŠ€å¤§å­¦è¢ç’ ç­‰ç ”å‘çš„å¹¶è¡Œä»£æ•°å¤šé‡ç½‘æ ¼ç®—æ³•åº“ï¼Œä¸»è¦ç”¨äºŽæ±‚è§£å½¢å¦‚Ax = bçš„ç¨€ç–çº¿æ€§ç³»ç»Ÿï¼Œå…¶ä¸­Aæ˜¯ä¸€ä¸ªåˆ†å¸ƒå¼å¤§åž‹ç¨€ç–çŸ©é˜µï¼Œx, bæ˜¯å®žå‘é‡ã€‚YHAMGçš„ç›®çš„æ˜¯åœ¨å¤§è§„æ¨¡å¹¶è¡Œè®¡ç®—æœºä¸Šä¸ºç”¨æˆ·æä¾›é«˜æ€§èƒ½å¯æ‰©å±•çš„å¹¶è¡Œçº¿æ€§æ±‚è§£å™¨ã€‚æ±‚è§£æ–¹æ¡ˆæ˜¯é¢„æ¡ä»¶å­å’Œå­ç©ºé—´è¿­ä»£æ³•ï¼ŒåŒ…å«äº†ä»¥ä¸‹ç®—æ³•ï¼š
+- ç¨€ç–çº¿æ€§ä»£æ•°åŸºæœ¬è¿ç®—ï¼›
+- å­ç©ºé—´è¿­ä»£æ³•ï¼ŒåŒ…æ‹¬CGã€GMRESå’ŒBiCGStabï¼›
+- ç»å…¸ä»£æ•°å¤šé‡ç½‘æ ¼ç®—æ³•ï¼ˆAMGï¼‰ï¼›
+- Jacobiã€SORã€SSORåŸºæœ¬è¿­ä»£æ³•ï¼›
+- ä¸å®Œå…¨LUåˆ†è§£ã€‚
 
-### 1.2 Èí¼þ½á¹¹
-YHAMGÖ÷Òª°üÀ¨ÒÔÏÂÄ£¿é£º
-- ÏßÐÔ´úÊý£ºÌá¹©ÏòÁ¿£¬¾ØÕó/Ëã×ÓºÍÏßÐÔ´úÊýÔËËã£»
-- ÏßÐÔÇó½âÆ÷£ºÌá¹©²¢ÐÐ×Ó¿Õ¼äµü´ú·¨£»
-- Ô¤Ìõ¼þ×Ó£ºÌá¹©´úÊýÔ¤Ìõ¼þ×Ó¡£
+### 1.2 è½¯ä»¶ç»“æž„
+YHAMGä¸»è¦åŒ…æ‹¬ä»¥ä¸‹æ¨¡å—ï¼š
+- çº¿æ€§ä»£æ•°ï¼šæä¾›å‘é‡ï¼ŒçŸ©é˜µ/ç®—å­å’Œçº¿æ€§ä»£æ•°è¿ç®—ï¼›
+- çº¿æ€§æ±‚è§£å™¨ï¼šæä¾›å¹¶è¡Œå­ç©ºé—´è¿­ä»£æ³•ï¼›
+- é¢„æ¡ä»¶å­ï¼šæä¾›ä»£æ•°é¢„æ¡ä»¶å­ã€‚
 
-### 1.3 Èí¼þÌØµã
-YHAMGÊÇÓÃC++±àÐ´µÄ£¬¾ßÓÐÒÔÏÂÌØµã£º
-- ÃæÏò¶ÔÏóÉè¼Æ£¬Ö§³ÖMPIºÍOpenMP£»
-- ÍêÕû¶ÀÁ¢µÄ´úÂë£¬²»ÒÀÀµÆäËü¿â£» 
-- Á¼ºÃµÄËã·¨¿ÉÀ©Õ¹ÐÔºÍ²¢ÐÐ¿ÉÀ©Õ¹ÐÔ£¬ÊÊÓÃÓÚ´óÐÍÏ¡ÊèÏßÐÔÏµÍ³Çó½â¡£
+### 1.3 è½¯ä»¶ç‰¹ç‚¹
+YHAMGæ˜¯ç”¨C++ç¼–å†™çš„ï¼Œå…·æœ‰ä»¥ä¸‹ç‰¹ç‚¹ï¼š
+- é¢å‘å¯¹è±¡è®¾è®¡ï¼Œæ”¯æŒMPIå’ŒOpenMPï¼›
+- å®Œæ•´ç‹¬ç«‹çš„ä»£ç ï¼Œä¸ä¾èµ–å…¶å®ƒåº“ï¼› 
+- è‰¯å¥½çš„ç®—æ³•å¯æ‰©å±•æ€§å’Œå¹¶è¡Œå¯æ‰©å±•æ€§ï¼Œé€‚ç”¨äºŽå¤§åž‹ç¨€ç–çº¿æ€§ç³»ç»Ÿæ±‚è§£ã€‚
 
-## ¶þ Èí¼þ°²×°
-### 2.1 ÏµÍ³ÅäÖÃÒªÇó
-Ó²¼þÒªÇó£º
-- ÄÚ´æ4GÒÔÉÏ£¬CPUÖ÷Æµ2GÒÔÉÏ¡£
+## äºŒ è½¯ä»¶å®‰è£…
+### 2.1 ç³»ç»Ÿé…ç½®è¦æ±‚
+ç¡¬ä»¶è¦æ±‚ï¼š
+- å†…å­˜4Gä»¥ä¸Šï¼ŒCPUä¸»é¢‘2Gä»¥ä¸Šã€‚
 
-Èí¼þ»·¾³ÒªÇó£º
-- ²Ù×÷ÏµÍ³£ºUbuntu£¬°æ±¾16.04£»
-- MPI±àÒëÆ÷£ºMPICH£¬°æ±¾3.2.1£»
-- C++±àÒëÆ÷£ºGCC£¬°æ±¾7.1¡£
+è½¯ä»¶çŽ¯å¢ƒè¦æ±‚ï¼š
+- æ“ä½œç³»ç»Ÿï¼šUbuntuï¼Œç‰ˆæœ¬16.04ï¼›
+- MPIç¼–è¯‘å™¨ï¼šMPICHï¼Œç‰ˆæœ¬3.2.1ï¼›
+- C++ç¼–è¯‘å™¨ï¼šGCCï¼Œç‰ˆæœ¬7.1ã€‚
 
-### 2.2 °²×°YHAMG
-1. ½âÑ¹YHAMG°üµ½°²×°Ä¿Â¼¡£
-1. Ö´ÐÐmake¡£
+### 2.2 å®‰è£…YHAMG
+1. è§£åŽ‹YHAMGåŒ…åˆ°å®‰è£…ç›®å½•ã€‚
+1. æ‰§è¡Œmakeã€‚
 
-### 2.3 Á´½ÓYHAMG
-ÓÃ»§ÐèÒªÌí¼ÓÏÂÃæµÄ±àÒëÃüÁîÀ´Á´½ÓYHAMG¿â¡£
-- Ìí¼Ó¿âÂ·¾¶£º -L*YHAMG_DIR*/lib£»
-- Ìí¼Ó¿âÁ´½Ó£º -lyhamg£»
-- Ìí¼ÓÍ·ÎÄ¼þÂ·¾¶£º -I*YHAMG_DIR*/include£»
-ÆäÖÐ *YHAMG_DIR* ±íÊ¾YHAMGÖ÷Ä¿Â¼Â·¾¶¡£²¢ÇÒÔÚ´úÂëµÄ±êÍ·ÖÐ°üº¬£º
+### 2.3 é“¾æŽ¥YHAMG
+ç”¨æˆ·éœ€è¦æ·»åŠ ä¸‹é¢çš„ç¼–è¯‘å‘½ä»¤æ¥é“¾æŽ¥YHAMGåº“ã€‚
+- æ·»åŠ åº“è·¯å¾„ï¼š -L*YHAMG_DIR*/libï¼›
+- æ·»åŠ åº“é“¾æŽ¥ï¼š -lyhamgï¼›
+- æ·»åŠ å¤´æ–‡ä»¶è·¯å¾„ï¼š -I*YHAMG_DIR*/includeï¼›
+å…¶ä¸­ *YHAMG_DIR* è¡¨ç¤ºYHAMGä¸»ç›®å½•è·¯å¾„ã€‚å¹¶ä¸”åœ¨ä»£ç çš„æ ‡å¤´ä¸­åŒ…å«ï¼š
 ```
 #include <yhamg.h>
 ```
 
-## Èý Ó¦ÓÃ³ÌÐò½Ó¿Ú
-²Î¿¼ÓÃ»§ÊÖ²á¡£
+## ä¸‰ åº”ç”¨ç¨‹åºæŽ¥å£
+å‚è€ƒç”¨æˆ·æ‰‹å†Œã€‚
 
-## ËÄ Ê¾Àý
-YHAMGÌá¹©ÁËÒ»¸öÊ¾Àý³ÌÐò£¬ÓÚtestÄ¿Â¼ÏÂ¡£ÔËÐÐÇ°£¬ÇëÉèÖÃÏµÍ³»·¾³±äÁ¿OMP_NUM_THREADS¿ØÖÆOpenMPÏß³ÌÊý¡£
+## å›› ç¤ºä¾‹
+YHAMGæä¾›äº†ä¸€ä¸ªç¤ºä¾‹ç¨‹åºï¼ŒäºŽtestç›®å½•ä¸‹ã€‚è¿è¡Œå‰ï¼Œè¯·è®¾ç½®ç³»ç»ŸçŽ¯å¢ƒå˜é‡OMP_NUM_THREADSæŽ§åˆ¶OpenMPçº¿ç¨‹æ•°ã€‚
 ```
 export OMP_NUM_THREADS=1
 ```
 
-### 4.1 ÔËÐÐ
+### 4.1 è¿è¡Œ
 ```
 > mpirun -n 8 ./test -laplace -n 100 100 100 -P 2 2 2 -pre 4 -solver 0
 
@@ -109,7 +109,7 @@ Time/Iteration: 0.147032
 
 ```
 
-### 4.2 ²ÎÊýÁÐ±í
+### 4.2 å‚æ•°åˆ—è¡¨
 ```
 -laplace         3D Laplace problem on a cube(default)
 -27pt            3D Laplace problem with 27-point stencil
